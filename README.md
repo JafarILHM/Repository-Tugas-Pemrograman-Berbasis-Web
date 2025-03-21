@@ -8,7 +8,7 @@ Repository mahasiswa untuk Tugas dan Praktikum untuk mata kuliah Pemrograman Ber
 - **Kelas**  :  4E
 - **Prodi**  :  Informatika
 
-## Visit Local Hosting Tugas
+## Visit Github Hosting Website Tugas
 
 ### Tugas Praktikum
 - **Praktikum 1**: [Tautan ke Praktikum 1](#)  
