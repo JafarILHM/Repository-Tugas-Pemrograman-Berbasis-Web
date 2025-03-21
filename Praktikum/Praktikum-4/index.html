@@ -1,0 +1,36 @@
+<!-- HTML written by Jafaruddin Ilham -->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cek Huruf Mutu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Cek Huruf Mutu</h2>
+
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" placeholder="Masukkan NIM">
+        <p id="error-nim" class="error"></p>
+
+        <label for="nilai">Nilai Mata Kuliah:</label>
+        <input type="text" id="nilai" placeholder="Masukkan nilai (0 - 100)">
+        <p id="error-nilaikuliah" class="error"></p>
+
+        <button onclick="cekNilai()">Cek Nilai</button> 
+        <p id="error-global" class="error"></p>
+        <p id="output"></p> 
+    </div>
+
+    <footer>
+        &copy; Author Jafaruddin Ilham. Dibuat dengan Visual Code.
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
