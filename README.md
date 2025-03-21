@@ -10,12 +10,9 @@ Repository mahasiswa untuk Tugas dan Praktikum untuk mata kuliah Pemrograman Ber
 
 ## Visit Local Hosting Tugas
 
-### Praktikum
+### Tugas Praktikum
 - **Praktikum 1**: [Tautan ke Praktikum 1](#)  
 - **Praktikum 2**: [Tautan ke Praktikum 2](#)  
 - **Praktikum 3**: [Tautan ke Praktikum 3](#)  
 - **Praktikum 4**: [Tautan ke Praktikum 4](#) 
 - **Praktikum 5**: [Tautan ke Praktikum 5](#)  
-
-### Tugas
-- **N/A**
