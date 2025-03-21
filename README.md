@@ -11,7 +11,7 @@ Repository mahasiswa untuk Tugas dan Praktikum untuk mata kuliah Pemrograman Ber
 ## Visit Github Hosting Website Tugas
 
 ### Tugas Praktikum
-- **Praktikum 1**: [[Tautan ke Praktikum 1](https://hostingwebjafarilhm.github.io/PBW-Praktikum-1-WebHost/)](#) "Pertemuan 2"
+- **Praktikum 1**: [Tautan ke Praktikum 1(https://hostingwebjafarilhm.github.io/PBW-Praktikum-1-WebHost/)](#) "Pertemuan 2"
 - **Praktikum 2**: [Tautan ke Praktikum 2](#) "Pertemuan 3"
 - **Praktikum 3**: [Tautan ke Praktikum 3](#) "Pertemuan 4"
 - **Praktikum 4**: [Tautan ke Praktikum 4](#) "Pertemuan 5"
