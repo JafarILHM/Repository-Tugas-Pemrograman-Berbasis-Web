@@ -1,20 +1,21 @@
 # Repository-Tugas-Pemrograman-Berbasis-Web
 Repository mahasiswa untuk Tugas dan Praktikum untuk mata kuliah Pemrograman Berbasis Web
-**NOTE** Perbaikan file dan folder yang berkonflik dengan repository lain
 
-**Informasi Mahasiswa**
-Nama   :  Jafaruddin Ilham
-Kelas  :  4E
-Prodi  :  Informatika
+**NOTE**: Perbaikan file dan folder yang berkonflik dengan repository lain
 
-**Visit Local Hosting Tugas**
-**Praktikum**
-Praktikum 1:
-Praktikum 2:
-Praktikum 3:
-Praktikum 4:
-Praktikum 5:
+## Informasi Mahasiswa
+- **Nama**   :  Jafaruddin Ilham
+- **Kelas**  :  4E
+- **Prodi**  :  Informatika
 
-**Tugas**
-N/A
+## Visit Local Hosting Tugas
 
+### Praktikum
+- **Praktikum 1**: [Tautan ke Praktikum 1](#)  
+- **Praktikum 2**: [Tautan ke Praktikum 2](#)  
+- **Praktikum 3**: [Tautan ke Praktikum 3](#)  
+- **Praktikum 4**: [Tautan ke Praktikum 4](#) 
+- **Praktikum 5**: [Tautan ke Praktikum 5](#)  
+
+### Tugas
+- **N/A**
