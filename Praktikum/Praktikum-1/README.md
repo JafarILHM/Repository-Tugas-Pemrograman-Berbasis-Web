@@ -1,2 +1,2 @@
 akses website:
-https://jafarilhm.github.io/Tugas-Pemrograman-Berbasis-Website-1/
+https://hostingwebjafarilhm.github.io/PBW-Praktikum-1-WebHost/
