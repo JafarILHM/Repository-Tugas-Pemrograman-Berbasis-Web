@@ -4,7 +4,6 @@
     box-sizing: border-box;
 } 
 
-
 header {
     background-color: #9c1328;
     color: white;
@@ -12,20 +11,15 @@ header {
     padding: 20px;
 }
 
-
-
-
 nav {
     background-color: #d73e3e;
     padding: 10px;
     text-align: center;
 }
 
-
 nav ul {
     list-style: none;
 }
-
 
 nav ul li {
     display: inline;
@@ -65,8 +59,7 @@ footer {
     background-color: #2C3E50;
     color: white;
     margin-top: 20px;
- }
-
+}
 
 .btn {
     display: inline-block;
@@ -80,7 +73,6 @@ footer {
     cursor: pointer;
     transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
-
 
 .btn:hover {
     background-color: #2980B9;

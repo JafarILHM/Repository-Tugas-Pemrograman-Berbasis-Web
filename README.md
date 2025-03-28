@@ -1,10 +1,11 @@
 # Repository-Tugas-Pemrograman-Berbasis-Web
 Repository mahasiswa untuk Tugas dan Praktikum untuk mata kuliah Pemrograman Berbasis Web
 
-**NOTE**: (21/03/2025) Terjadi perbaikan file dan folder yang berkonflik dengan repository lain 
-    **DESC**: Membuat **repositori baru**, memperbaiki tugas 2 dan 3 yang tidak dapat diakses, push tugas 4 (pertemuan 5)
+**NOTE 1**: (21/03/2025) Terjadi perbaikan file dan folder yang berkonflik dengan repository lain.
 
-**NOTE**: (28/03/2025) Terjadi perbaikan nama folder
+**Deskripsi Note 1**: Membuat **repositori baru**, memperbaiki tugas 2 dan 3 yang tidak dapat diakses, push tugas 4 (pertemuan 5)
+
+**NOTE 2**: (28/03/2025) Terjadi perbaikan nama folder
 
 ## Informasi Mahasiswa
 - **Nama**   :  Jafaruddin Ilham
