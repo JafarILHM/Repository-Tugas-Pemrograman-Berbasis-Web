@@ -48,32 +48,29 @@ function validasiNilai(validNIM) {
     }
 
     let hurufMutu, warna;
-    switch (true) {
-        case (nilai >= 80):
-            hurufMutu = "Huruf Mutu: A";
-            warna = "green";
-            break;
-        case (nilai >= 70):
-            hurufMutu = "Huruf Mutu: B";
-            warna = "blue";
-            break;
-        case (nilai >= 60):
-            hurufMutu = "Huruf Mutu: C";
-            warna = "orange";
-            break;
-        case (nilai >= 50):
-            hurufMutu = "Huruf Mutu: D";
-            warna = "purple";
-            break;
-        default:
-            hurufMutu = "Huruf Mutu: E";
-            warna = "red";
+    
+    if (nilai >= 80) {
+        hurufMutu = "Huruf Mutu: A";
+        warna = "green";
+    } else if (nilai >= 70) {
+        hurufMutu = "Huruf Mutu: B";
+        warna = "blue";
+    } else if (nilai >= 60) {
+        hurufMutu = "Huruf Mutu: C";
+        warna = "orange";
+    } else if (nilai >= 50) {
+        hurufMutu = "Huruf Mutu: D";
+        warna = "purple";
+    } else {
+        hurufMutu = "Huruf Mutu: E";
+        warna = "red";
     }
 
     output.textContent = hurufMutu;
     output.style.color = warna;
     return true;
 }
+
 
 function validasiGlobal(validNIM, validNilai) {
     let errorGlobal = document.getElementById("error-global");
