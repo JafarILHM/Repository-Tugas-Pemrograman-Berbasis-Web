@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Latihan PHP</title>
+    <title>Jenis Kendaraan</title>
 </head>
 <body>
-    <h1>Latihan Praktikum PHP</h1>
+    <h2>Jenis Kendaraan Berdasarkan Jumlah Roda</h2>
     <?php include 'nav.php'; ?>
+
+    <?php 
+    $jumlah_roda = 4;
+
+    switch ($jumlah_roda) {
+        case 2:
+            echo "Kendaraan: Sepeda Motor";
+            break;
+        case 3:
+            echo "Kendaraan: Bajaj";
+            break;
+        case 4:
+            echo "Kendaraan: Mobil";
+            break;
+        case 6:
+            echo "Kendaraan: Truk";
+            break;
+        default:
+            echo "Jenis kendaraan tidak diketahui";
+    }
+    ?>
 </body>
 </html>
