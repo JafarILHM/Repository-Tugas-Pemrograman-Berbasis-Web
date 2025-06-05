@@ -13,7 +13,7 @@
         Biaya UKT (Rp): <input type="number" name="ukt" required><br><br>
         <input type="submit" name="submit" value="Hitung Diskon">
     </form>
-
+    <?php include 'nav.php'; ?>
     <?php
     if (isset($_POST['submit'])) {
         $npm = $_POST['npm'];
