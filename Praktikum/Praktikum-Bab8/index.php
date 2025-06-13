@@ -5,8 +5,6 @@
 </head>
 <body>
     <h2>Jenis Kendaraan Berdasarkan Jumlah Roda</h2>
-    <?php include 'nav.php'; ?>
-
     <?php 
     $jumlah_roda = 4;
 
