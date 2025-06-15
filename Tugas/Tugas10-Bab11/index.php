@@ -4,9 +4,9 @@
         header("Location: login.php?message=" . urlencode("Mengakses fitur harus login dulu bro.")); 
         exit; 
     }
-
-    include 'proses_index.php'; 
 ?> 
+
+<?php include 'proses_index.php'; ?> 
 <!DOCTYPE html> 
 <html lang="en"> 
 <head> 
