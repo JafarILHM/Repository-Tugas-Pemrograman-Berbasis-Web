@@ -26,6 +26,9 @@
                 <li class="nav-item"> 
                     <a class="nav-link" href="hapus.php">Hapus Buku</a> 
                 </li> 
+                <li class="nav-item"> 
+                    <a class="nav-link text-warning" href="logout.php">Logout</a> 
+                </li> 
             </ul> 
         </div> 
     </div> 

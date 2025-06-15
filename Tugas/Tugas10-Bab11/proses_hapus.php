@@ -1,4 +1,12 @@
 <?php 
+    session_start(); 
+    if (!isset($_SESSION['login_Un51k4'])) { 
+        header("Location: login.php?message=" . urlencode("Mengakses fitur harus login dulu bro.")); 
+        exit; 
+    }
+?> 
+
+<?php 
 include 'koneksi_db.php'; // Pastikan $conn = new mysqli(...) 
 
 if (isset($_GET['id']) && is_numeric($_GET['id'])) { 
