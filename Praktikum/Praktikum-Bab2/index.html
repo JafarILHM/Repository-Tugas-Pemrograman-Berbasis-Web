@@ -1,40 +1,90 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
-    <title>Praktikum Bab 2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Penerapan Tag HTML</title>
 </head>
 <body>
-    <h1>Praktikum 2</h1> 
-    <h2>BAB 2</h2> 
-    <p>Ini adalah paragraf.</p> 
-    <p>Ini adalah <br>  paragraf.</p> 
-    <a href="https://www.google.com">Kunjungi Situs Google</a> 
-<ul> 
-    <li>Sholeh</li> 
-    <li>Kaya Raya</li> 
-    <li>Tampan</li> 
-</ul> 
-<ol type="A"> 
-    <li>Langkah Pertama</li> 
-    <li>Langkah Kedua</li> 
-    <li>Langkah Ketiga</li> 
-</ol> 
+
+    <h1>A. Struktur Dasar HTML</h1>
+    <p>Struktur dasar dokumen HTML terdiri dari tag &lt;html&gt;, &lt;head&gt;, dan &lt;body&gt;. Bagian &lt;head&gt; berisi metadata seperti judul halaman , sedangkan &lt;body&gt; berisi semua konten yang akan ditampilkan kepada pengguna.</p>
+    
+    <hr>
+
+    <h1>B. Tag Heading dan Teks</h1>
+    <h1>Judul Utama (h1) </h1>
+    <h2>Judul Sub (h2) </h2>
+    <p>Tag heading digunakan untuk membuat judul dengan hierarki dari &lt;h1&gt; hingga &lt;h6&gt;.</p>
+    
+    <p>Ini adalah sebuah paragraf teks biasa yang dibuat dengan tag &lt;p&gt;.</p>
+    <p>Ini adalah paragraf <br> yang menggunakan tag &lt;br&gt; untuk membuat baris baru atau enter.</p>
+
+    <hr>
+
+    <h1>C. Tag Tautan dan Gambar</h1>
+    <p>
+        <a href="https://www.example.com">Tautan ini dibuat dengan tag &lt;a&gt;.</a>
+    </p>
+    <p>
+        <a href="https://www.example.com" target="_blank">Tautan ini akan terbuka di tab baru menggunakan atribut target="_blank".</a>
+    </p>
+    <p>
+        Gambar di bawah ini ditampilkan menggunakan tag &lt;img&gt;.
+        <br>
+        <img src="https://via.placeholder.com/150" alt="Deskripsi Gambar Placeholder">
+    </p>
+
+    <hr>
+
+    <h1>D. Tag Daftar (List)</h1>
+    <h3>Contoh Daftar Tidak Terurut (Unordered List)</h3>
+    <p>Daftar ini menggunakan &lt;ul&gt; untuk daftar tidak terurut dan &lt;li&gt; untuk setiap itemnya.</p>
+    <ul>
+        <li>Sholeh </li>
+        <li>Kaya Raya </li>
+        <li>Tampan </li>
+    </ul>
+
+    <h3>Contoh Daftar Terurut (Ordered List)</h3>
+    <p>Daftar ini menggunakan &lt;ol&gt; untuk daftar terurut. Atribut 'type' dapat digunakan untuk mengubah gaya penomoran, misalnya menjadi huruf besar.</p>
+    <ol type="A">
+        <li>Langkah Pertama</li>
+        <li>Langkah Kedua</li>
+        <li>Langkah Ketiga</li>
+    </ol>
+
+    <hr>
+
+    <h1>E. Tag Tabel</h1>
+    <p>Tabel dibuat dengan tag &lt;table&gt;, &lt;tr&gt; untuk baris, &lt;th&gt; untuk header, dan &lt;td&gt; untuk data sel.</p>
     <table border="1">
-        <tr>
-            <th>Nama</th>
-            <th>Usia</th>
-            <th>Kota</th>
-        </tr>
-        <tr>
-            <td>Ani</td>
-            <td>25</td>
-            <td>Jakarta</td>
-        </tr>
-        <tr>
-            <td>Budi</td>
-            <td>30</td>
-            <td>Bandung</td>
-        </tr>
+        <caption>Data Karyawan </caption>
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Usia</th>
+                <th>Kota</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ani</td>
+                <td>25</td>
+                <td>Jakarta</td>
+            </tr>
+            <tr>
+                <td>Budi</td>
+                <td>30</td>
+                <td>Bandung</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Data ini merupakan contoh.</td>
+            </tr>
+        </tfoot>
     </table>
+
 </body>
 </html>
