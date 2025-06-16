@@ -9,7 +9,7 @@ Repository mahasiswa untuk Tugas dan Praktikum untuk mata kuliah Pemrograman Ber
 ## Visit Website
 
 ### Website Online
-- **Website Online**: [Website Jafaruddin Ilham](Jafaruddinilham.my.id) 
+- **Website Online**: [Website Jafaruddin Ilham](jafaruddinilham.my.id) 
 
 ### Website Pages Github
 - **Website Pages**: [N/A](/) 
