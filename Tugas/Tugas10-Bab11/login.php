@@ -6,6 +6,8 @@
 </head>
     <body class="container mt-5">
     <h2>Masuk kedalam sistem</h2>
+    <label>User:admin</label> <br>
+    <label>Katasandi: admin123</label>
     <?php if (isset($_GET['message'])): ?>
         <div class="alert alert-info"><?= htmlspecialchars($_GET['message']) ?></div>
     <?php endif; ?>
